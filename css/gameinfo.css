@@ -1,0 +1,35 @@
+.game-info {
+  border: 2px solid black;
+  text-align: center;
+  background: #f2f2f2;
+  margin: 10px;  
+}
+
+.game-info img {
+  height: 180px;
+}
+
+.game-info h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline red 4px;
+}
+
+.game-info p {
+  font-size: 15px;
+}
+
+.buy-game a {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  height: 20px;
+  cursor: pointer;
+  
+}
+
+.buy-game {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}

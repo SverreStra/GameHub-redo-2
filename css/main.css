@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,500&family=Satisfy&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: #879BBF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.logo img {
+  height: 75px;
+}
+
+
+.menu {
+  display: none;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li a {
+  display: block;
+  color: #003087;
+  font-size: 20px;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.4s;
+  margin: 0 5px;
+}
+
+.navbar ul li a:hover {
+  color: #f2f2f2;
+  background: #003087;
+}
+
+
+.navbar ul li a.active {
+  color: #f2f2f2;
+  background: #003087;
+}
+
+main {
+  margin: 10px;
+}
+
+/*Buttons*/
+.btn {
+  font-size: 12px;
+  font-weight: bold;
+  background: #791212;
+  color: #f2f2f2;
+  width: 16px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #003087;
+}
+
+/*News*/
+
+.news-container h2 {
+  padding: 20px 20px;
+  text-decoration: 4px underline #daa520;
+  color: #f2f2f2;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background: #0e0d0d;
+}
+
+
+.news-header {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border: 2px #003087 solid;
+  color: #f2f2f2;
+  margin: 10px;
+  padding: 20px;
+  background-image: url(/images/background.jpg);
+}
+
+.game-image img {
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-header h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline 4px solid #791212;
+}
+
+.news-header p {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+/*Games*/
+.best-sellers {
+  border: #791212;
+  border-radius: 25px;
+  background: #791212;
+  color: #f2f2f2;
+}
+
+.best-sellers h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: .5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+
+}
+
+.main-page-games {
+  border-radius: 25px;
+  background-color: #f2f2f2;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 4px 6px #000000;
+}
+
+.main-page-games img {
+  width: 100%;
+}
+
+.main-page-games h2 {
+  font-size: 18px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.main-page-games p {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  padding: 5px;
+}
+
+
+
+
+/*Footer*/
+footer {
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 1170px;
+  margin: auto;
+  align-items: center;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footer {
+  background-color: #f2f2f2;
+  padding: 70px 0;
+  margin-top: auto;
+}
+
+.footer-col {
+  width: 33%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #003087;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+  background-color: #003087;
+}
+
+.footer-col ul li a {
+  font-size: 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 300;
+  color: #003087;
+  display: block;
+  transition: 0.4s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #003087;
+  padding-left: 10px;
+}
+
+
+.footer-col .links a {
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  background-color: #003087;
+  color: #f2f2f2;
+  margin: 0 10px 10px 0;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 0.7s ease;
+}
+
+.links {
+  display: flex;
+}
+
+.footer-col .links a:hover {
+  color: #003087;
+  background-color: #879BBF;
+}

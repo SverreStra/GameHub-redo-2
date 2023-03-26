@@ -1,0 +1,462 @@
+@media only screen and (max-width: 1920px) {
+  header {
+    padding: 0 50px;
+  }
+
+  .checkout-merch {
+    padding: 20px;
+    margin: 120px;
+  }
+
+  .checkout-merch img {
+    width: 350px;
+  }
+
+  .news-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .main-page-games img {
+    width: 150px;
+  }
+
+  /*Game page*/
+
+  .main-container-game-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+
+  /*About page*/
+
+  .about h1 {
+    font-size: 30px;
+  }
+  
+  .about p {
+    font-size: 23px;
+
+  }
+  
+  .check-store h2 {
+    font-size: 25px;
+    color: #f2f2f2;
+  }
+  
+  .check-store  {
+    margin: 20px;
+  }
+
+  /*Contact page*/
+  .contact {
+    width: 100vw;
+  }
+  /*Checkout page*/
+  .checkout-container h2 {
+    font-size: 30px;
+  }
+  .checkout-container p {
+    font-size: 25px;
+  }
+
+      /*Game info page*/
+
+      .game-info img {
+        height: 280px;
+      }
+      .game-info h1 {
+        font-size: 35px;
+      }
+      
+      .game-info p {
+        font-size: 18px;
+      }
+    
+      .buy-game a {
+        margin-top: 20px;
+        padding: 20px;
+        height: 20px;
+      }
+      
+      .buy-game {
+        margin: 20px;
+        padding: 20px;
+      }
+}
+
+@media only screen and (max-width: 1110px) {
+  header {
+    padding: 0 30px;
+  }
+
+ 
+
+  .main-page-games img {
+    width: 150px;
+  }
+
+  .checkout-merch img {
+    width: 250px;
+  }
+
+  
+  .checkout-merch {
+    padding: 20px;
+    margin: 40px;
+  }
+
+
+  /*Games page*/
+
+  .main-container-game-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /*About page*/
+  .checkout-container h2 {
+    font-size: 30px;
+  }
+  .checkout-container p {
+    font-size: 25px;
+  }
+   /*Contact page*/
+   .contact {
+    width: 100vw;
+  }
+
+  /*Game info page*/
+
+      .game-info img {
+        height: 280px;
+      }
+      .game-info h1 {
+        font-size: 35px;
+      }
+      
+      .game-info p {
+        font-size: 18px;
+      }
+    
+      .buy-game a {
+        margin-top: 20px;
+        padding: 20px;
+        height: 20px;
+      }
+      
+      .buy-game {
+        margin: 20px;
+        padding: 20px;
+      }
+}
+
+@media only screen and (max-width: 980px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .news-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+    /*About page*/
+
+    .about h1 {
+      font-size: 20px;
+    }
+    
+    .about p {
+      font-size: 18px;
+  
+    }
+    
+    .check-store h2 {
+      font-size: 20px;
+      color: #f2f2f2;
+    }
+    
+    .check-store  {
+      margin: 20px;
+    }
+
+    /*About page*/
+
+  .checkout-container p {
+    font-size: 23px;
+  }
+
+   /*Contact page*/
+   .contact {
+    width: 100vw;
+  }
+
+      /*Game info page*/
+
+      .game-info img {
+        height: 280px;
+      }
+      .game-info h1 {
+        font-size: 35px;
+      }
+      
+      .game-info p {
+        font-size: 18px;
+      }
+    
+      .buy-game a {
+        margin-top: 20px;
+        padding: 20px;
+        height: 20px;
+      }
+      
+      .buy-game {
+        margin: 20px;
+        padding: 20px;
+      }
+}
+
+@media only screen and (max-width: 900px) {
+  /*Navbar*/
+  
+  .menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu .line {
+    width: 30px;
+    height: 3px;
+    background: #003087;
+    margin: 6px 0;
+  }
+
+  .navbar {
+    height: 0px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background: #f2f2f2;
+    transition: 0.4s;
+    overflow: hidden;
+  }
+  .navbar.active {
+    height: 450px;
+  }
+  .navbar ul {
+    display: block;
+    width: fit-content;
+    margin: 80px auto 0 auto;
+    text-align: center;
+    transition: 0.6s;
+    opacity: 0;
+  }
+  .navbar.active ul {
+    opacity: 1;
+  }
+  .navbar ul li a {
+    margin-bottom: 12px;
+  }
+  /*Heading main page*/
+  .news-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  /*Games*/
+
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .main-container-game-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .main-container-game-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+   /*Contact page*/
+   .contact {
+    width: 100vw;
+  }
+
+   .checkout-merch img {
+    width: 250px;
+  }
+
+  
+  .checkout-merch {
+    padding: 20px;
+    margin: 30px;
+  }
+
+  /*Checkout page*/
+
+  .checkout-container p {
+    font-size: 18px;
+  }
+
+    /*Game info page*/
+
+    .game-info img {
+      height: 280px;
+    }
+    .game-info h1 {
+      font-size: 35px;
+    }
+    
+    .game-info p {
+      font-size: 18px;
+    }
+  
+    .buy-game a {
+      margin-top: 20px;
+      padding: 20px;
+      height: 20px;
+    }
+    
+    .buy-game {
+      margin: 20px;
+      padding: 20px;
+    }
+  /*Footer*/
+  .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  
+  .news-header {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+ .contact form {
+  width: 100%;
+ 
+ }
+
+ .checkout-merch img {
+  width: 150px;
+}
+
+
+.checkout-merch {
+  padding: 20px;
+  margin: 30px;
+}
+
+/*Game page*/
+.main-container-game-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+  /*About page*/
+
+  .about h1 {
+    font-size: 18px;
+  }
+  
+  .about p {
+    font-size: 15px;
+
+  }
+  
+  .check-store h2 {
+    font-size: 25px;
+    color: #f2f2f2;
+  }
+  
+  .check-store  {
+    margin: 20px;
+  }
+
+   /*Contact page*/
+   .contact {
+    width: 100vw;
+  }
+
+  /*Checkout page*/
+
+  .checkout-container p {
+    font-size: 15px;
+  }
+
+
+}
+@media only screen and (max-width: 520px) {
+  
+  .checkout-merch img {
+    width: 150px;
+  }
+
+  .checkout-merch {
+    padding: 20px;
+    margin: 20px;
+  }
+
+
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+   /*Contact page*/
+   .contact {
+    width: 100%;
+  }
+  /*Game page*/
+  .main-container-game-page {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  /*Game info page*/
+
+  .game-info img {
+    height: 180px;
+  }
+  .game-info h1 {
+    font-size: 30px;
+  }
+  
+  .game-info p {
+    font-size: 15px;
+  }
+
+  .buy-game a {
+    margin-top: 20px;
+    padding: 20px;
+    height: 20px;
+  }
+  
+  .buy-game {
+    margin: 20px;
+    padding: 20px;
+  }
+
+ 
+}

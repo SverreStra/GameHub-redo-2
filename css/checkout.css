@@ -1,0 +1,123 @@
+* {
+  transition: all .3s linear;
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+}
+
+.heading-checkout h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline solid 4px #791212;
+  padding: 20px;
+}
+.checkout-merch {
+  border: 2px solid #f2f2f2;
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 4px 4px #000;
+}
+
+
+
+.checkout-merch h2 {
+  color: #791212;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.checkout-merch p {
+  color: #003087;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline #791212 solid 4px;
+}
+
+
+
+.container-pay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  min-height: 100vh;
+  background: #879BBF;
+  padding-bottom: 70px;
+}
+
+.container-pay form {
+  padding: 20px;
+  width: 700px;
+  background: #f2f2f2;
+  box-shadow: 4px 4px #000;
+}
+
+.container-pay form .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.container-pay form .row .col {
+  flex: 1 1 250px;
+}
+
+
+.container-pay form .row .col .title {
+  font-size: 20px;
+  color: #000;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container-pay form .row .col .input-box {
+  margin: 15px 0;
+
+}
+
+.container-pay form .row .col .input-box span {
+  margin-bottom: 5px;
+  display: block;
+}
+
+
+.container-pay form .row .col .input-box input {
+  width: 100%;
+  border: 1px solid #000;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.container-pay form .row .col .input-box input:focus {
+  border: 1px solid #879BBF;
+}
+
+.container-pay form .row .col .flex {
+  display: flex;
+  gap: 15px;
+}
+
+.container-pay form .row .col .flex .input-box {
+  margin-top: 5px;
+}
+
+.container-pay form .row .col .input-box i {
+ font-size: 30px;
+ color: #003087;
+}
+
+.container-pay form .btn-checkout {
+  width: 100%;
+  padding: 12px;
+  font-size: 17px;
+  background: #791212;
+  color: #f2f2f2;
+  cursor: pointer;
+} 
+
+.container-pay form .btn-checkout:hover {
+    background: #003087;
+}

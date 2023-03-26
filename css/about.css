@@ -1,0 +1,39 @@
+.container-about {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr;
+  padding-block: 1.5rem;
+  width: min(95%, 70rem);
+  margin-inline: auto;
+}
+
+.about {
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: #fff;
+  padding-bottom: 10px;
+  margin: 50px;
+  box-shadow: 4px 4px #000;
+}
+
+.about h1 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.about p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.check-store h2 {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.check-store  {
+  text-align: center;
+  margin: 20px;
+}
