@@ -88,6 +88,28 @@ main {
 /*News*/
 
 /*Featured Games --> New CSS*/
+
+.game-info h4 {
+  margin-bottom: 10px;
+}
+
+.info-btn {
+  border-radius: 25px;
+  background-color: #791212;
+  color: #f2f2f2;
+  font-weight: bold;
+  width: 16px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.info-btn:hover {
+  background: #003087;
+}
+
 .featured-games {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -160,6 +182,10 @@ main {
   font-weight: bold;
   color: #000000;
   padding: 5px;
+}
+
+.product h4 {
+  margin-bottom: 10px;
 }
 
 

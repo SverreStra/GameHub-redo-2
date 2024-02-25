@@ -21,6 +21,7 @@ function getHTML(featured){
   <h2>${featured.name}</h2>
   <p>${featured.description}</p>
   <h4>${featured.prices.price} ${featured.prices.currency_symbol}</h4>
+  <a href="game.html?id=${featured.id}" class="info-btn">More Info</a>
   </div>
   
   </div>`
