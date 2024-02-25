@@ -25,6 +25,17 @@
     width: 150px;
   }
 
+  /*Detail Page*/
+.product-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.product-page img {
+  height: 50vh;
+}
+
+
   /*Game page*/
 
   .main-container-game-page {
@@ -112,6 +123,20 @@
   }
 
 
+  /*Detail Page  --> New CSS*/
+
+.product-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.product-page img {
+  height: 50vh;
+}
+
+
+
   /*Games page*/
 
   .main-container-game-page {
@@ -186,6 +211,26 @@
     .check-store  {
       margin: 20px;
     }
+
+    /*Product --> New CSS*/
+
+    .products {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    
+
+    /*Detail Page*/
+.product-page {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.product-page img {
+  height: 50vh;
+}
+
 
     /*About page*/
 
@@ -368,6 +413,36 @@
   margin: 30px;
 }
 
+.featured-games {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.featured-games p {
+  display: none;
+}
+
+ /*Product --> New CSS*/
+
+ .products {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+
+
+/*Detail Page*/
+.product-page {
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+.product-page img {
+  height: 30vh;
+}
+
+
 /*Game page*/
 .main-container-game-page {
   display: grid;
@@ -424,6 +499,13 @@
     grid-template-columns: 1fr;
   }
 
+
+  /*Featured Game --> New CSS*/
+
+  .featured-games p {
+    display: none;
+  }
+
    /*Contact page*/
    .contact {
     width: 100%;
@@ -433,6 +515,31 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+
+   /*Product --> New CSS*/
+
+   .products {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+
+  /*Detail Page --> New CSS*/
+.product-page {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 10px;
+  margin: 10px;
+}
+
+.product-page img {
+  height: 20vh;
+}
+
+.product-page p {
+  font-size: 10px;
+}
+
 
   /*Game info page*/
 

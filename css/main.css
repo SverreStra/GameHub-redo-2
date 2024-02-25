@@ -87,20 +87,10 @@ main {
 
 /*News*/
 
-.news-container h2 {
-  padding: 20px 20px;
-  text-decoration: 4px underline #daa520;
-  color: #f2f2f2;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  background: #0e0d0d;
-}
-
-
-.news-header {
+/*Featured Games --> New CSS*/
+.featured-games {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
   gap: 1rem;
@@ -111,43 +101,34 @@ main {
   background-image: url(/images/background.jpg);
 }
 
-.game-image img {
+.featured-img img {
   height: 250px;
   align-items: center;
   justify-content: center;
 }
 
-.news-header h3 {
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: underline 4px solid #791212;
+/*Detail Page ---> New CSS*/
+.product-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 100px;
+  margin: 50px;
+  background: #f2f2f2;
+  line-height: 1.5;
 }
 
-.news-header p {
-  font-size: 12px;
-  font-weight: bold;
-  margin-bottom: 10px;
+.product-page img {
+  height: 100vh;
 }
+
 
 
 /*Games*/
-.best-sellers {
-  border: #791212;
-  border-radius: 25px;
-  background: #791212;
-  color: #f2f2f2;
-}
 
-.best-sellers h2 {
-  text-align: center;
-  font-size: 25px;
-  font-weight: bold;
-}
-
-
-.main-container {
+/*New CSS for products*/
+.products {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: .5rem;
   align-items: center;
   justify-content: center;
@@ -155,7 +136,7 @@ main {
 
 }
 
-.main-page-games {
+.product {
   border-radius: 25px;
   background-color: #f2f2f2;
   text-align: center;
@@ -164,17 +145,17 @@ main {
   box-shadow: 4px 6px #000000;
 }
 
-.main-page-games img {
+.product img {
   width: 100%;
 }
 
-.main-page-games h2 {
+.product h2 {
   font-size: 18px;
   color: #000000;
   font-weight: bold;
 }
 
-.main-page-games p {
+.product p {
   font-size: 15px;
   font-weight: bold;
   color: #000000;
