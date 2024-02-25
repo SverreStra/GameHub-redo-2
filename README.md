@@ -19,6 +19,10 @@ This was my first Course Assignment, this has also been updated from the first v
  How to get the Repo is by clone it:
  
  Since this was a school project I was the only worker on the project.
+
+ Update 25.02.24
+
+ I have changed the products, from being hardcoded into the website using HTML, the products now are fetched from an API that I have made on Wordpress.
  
  Contact me:
  
